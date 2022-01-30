@@ -1,9 +1,53 @@
 .App {
   background-image: url("am.jpg");
-  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
   height: 100vh;
+}
+
+.Main {
+  padding: 1.5em;
+}
+
+.Header {
+  color: white;
+  text-shadow: 0.14rem 0.14rem #000;
+  font-size: 4rem;
+  font-family: Tahoma, Verdana, sans-serif;
+}
+
+.Subheader {
+  color: white;
+  text-shadow: 0.10rem 0.10rem #000;
+  font-size: 1.5rem;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+.Content {
+  color: white;
+  text-shadow: 0.10rem 0.10rem #000;
+  font-size: 1.7rem;
+  margin: 0.8em;
+}
+
+.TextBadge {
+  background-color: lightcoral;
+  color: white;
+  font-size: 0.4em;
+  border-radius: 0.5em;
+  padding: 0.3em;
+  margin-left: 0.7em;
+  border: 0.1em solid black; 
+  vertical-align: middle;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: lightseagreen;
 }
