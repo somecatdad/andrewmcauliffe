@@ -8,10 +8,17 @@ function App() {
         <div className="Header">Andrew McAuliffe</div>
         <div className="Subheader">React • React Native • Team Leadership • Scrum</div>
         <div className="Content">
-          <a href={resumePdf}>
-            <span>Résumé</span>
-            <span className="TextBadge">PDF</span>
-          </a>
+          <div>
+            <a href={resumePdf}>
+              <span>Résumé</span>
+              <span className="TextBadge">PDF</span>
+            </a>
+          </div>
+          <div>
+            <a href="https://www.linkedin.com/in/andrew-mcauliffe/">
+              <span>LinkedIn</span>
+            </a>
+          </div>
         </div>
       </div>
     </div>
